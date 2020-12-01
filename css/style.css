@@ -1,0 +1,56 @@
+body{
+    position: relative;
+}
+button{
+        outline:none;
+        border: none;
+        border: none;
+}
+.btn-primary{
+    transition: all 0.3s ease-in 0s;
+    background: linear-gradient(93deg, rgb(37, 42, 213) 0%, rgb(122, 49, 222) 52%, rgb(196, 56, 231) 100%);
+    width: 235px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 18px 25px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: none;
+    position: absolute;
+    top:40vh;
+    left: 40%;
+}
+.btn-primary:hover{
+    transition: all 0.3s ease-in 0s;
+    background: linear-gradient(93deg,rgb(196, 56, 231)  0%, rgb(122, 49, 222) 52%,  rgb(37, 42, 213)100%);
+}
+
+.btn-primary > span{
+
+    padding-left: 10px;
+}
+@media (max-width: 560px ){
+    .btn-primary{
+        left: 10vh;
+    }
+}
+.modal_user{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(07,07,07,0.7);
+}
+.modal-content{
+    margin-top: 30%;
+}
+.close{
+display: block;
+}
+
+.form{
+    padding: 15px;
+}
